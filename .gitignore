@@ -23,11 +23,18 @@ classes/
 bin/
 .classpath
 .project
-e
+
 # macos
 
 *.DS_Store
 
 # fabric
 
-.run/
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
